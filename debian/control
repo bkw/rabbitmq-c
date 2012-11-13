@@ -7,7 +7,7 @@ Standards-Version: 3.8.1
 Homepage: http://www.rabbitmq.com/
 Vcs-Browser: https://github.com/alanxz/rabbitmq-c
 
-Package: librabbitmq0
+Package: librabbitmq
 Architecture: any
 Section: libs
 Priority: extra
@@ -18,7 +18,7 @@ Package: librabbitmq-dev
 Architecture: any
 Section: libdevel
 Priority: extra
-Depends: librabbitmq0 (= ${binary:Version}), libc-dev
+Depends: librabbitmq (= ${binary:Version}), libc-dev
 Description: developer's libraries and docs for librabbitmq
 
 Package: amqp-tools
