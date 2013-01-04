@@ -1,4 +1,4 @@
-librabbitmq (1.0.1-1ubuntu1) precise; urgency=low
+librabbitmq1 (1.0.1-1ubuntu1) precise; urgency=low
 
   * bump package version
 
